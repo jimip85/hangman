@@ -13,7 +13,7 @@ def hangman():
     word = get_valid_word(words)
     word_letters = set(word) # letters in the word
     alphabet = set(string.ascii_uppercase)
-    used_letters = set() # letters the user has guessed
+    used_letters = set() # letters the user has guessed!
 
     lives = 7 # number of guesses
     index_value = lives
